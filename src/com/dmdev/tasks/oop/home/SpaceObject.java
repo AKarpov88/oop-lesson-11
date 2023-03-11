@@ -4,7 +4,7 @@ public abstract class SpaceObject {
     private String name;
     private int mass;
     private int radius;
-    private Coordinate coordinate; // условный, упрощенный параметр
+    private Coordinate coordinate;
 
     public SpaceObject(String name, int mass, int radius, Coordinate coordinate) {
         this.name = name;
