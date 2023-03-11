@@ -13,9 +13,9 @@ public class SpaceRunner {
         Asteroid vesta = new Asteroid("Vesta", 2, 3, new Coordinate(100, 550, 30));
 
         System.out.println(moon.toString());
-        System.out.println(earth.getMax(sun).toString());
+        System.out.println(earth.getMax(sun).getName());
         System.out.println(vesta.getDiameter());
-        System.out.println(earth.getCoordinate().getDistance(sun.getCoordinate()));
+        System.out.println(earth.getDistance(sun));
         System.out.println(isStar(vesta));
         System.out.println(getGravitation(sun, earth));
         System.out.println(sun.isBright());

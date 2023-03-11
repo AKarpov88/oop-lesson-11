@@ -6,7 +6,7 @@ public final class SpaceUtils {
     }
 
     public static double getGravitation(SpaceObject spaceObject1, SpaceObject spaceObject2) {
-        double distance = spaceObject1.getCoordinate().getDistance(spaceObject2.getCoordinate());
+        double distance = spaceObject1.getDistance(spaceObject2);
         return spaceObject1.getMass() * spaceObject2.getMass() / Math.pow(distance, 2);
     }
 

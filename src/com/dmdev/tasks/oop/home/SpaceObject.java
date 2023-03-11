@@ -21,6 +21,12 @@ public abstract class SpaceObject {
         return radius * 2;
     }
 
+    public double getDistance(SpaceObject spaceObject) {
+        return Math.sqrt(Math.pow((this.coordinate.getX() - spaceObject.coordinate.getX()), 2) +
+                Math.pow((this.coordinate.getY() - spaceObject.coordinate.getY()), 2) +
+                Math.pow((this.coordinate.getZ() - spaceObject.coordinate.getZ()), 2));
+    }
+
     public String getName() {
         return name;
     }
