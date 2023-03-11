@@ -1,6 +1,6 @@
 package com.dmdev.tasks.oop.home;
 
-public class Star extends SpaceObject implements WithLight {
+public class Star extends SpaceObject implements WithLuminosity {
 
     private int luminosity;
 

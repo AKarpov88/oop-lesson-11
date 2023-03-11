@@ -1,6 +1,6 @@
 package com.dmdev.tasks.oop.home;
 
-public interface WithLight {
+public interface WithLuminosity {
 
     boolean isBright();
 }
